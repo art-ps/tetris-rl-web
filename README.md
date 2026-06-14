@@ -13,6 +13,7 @@
 <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-5-3178c6?style=flat-square&logo=typescript&logoColor=white">
 <img alt="Vite" src="https://img.shields.io/badge/Vite-5-646cff?style=flat-square&logo=vite&logoColor=white">
 <img alt="no backend" src="https://img.shields.io/badge/backend-none-success?style=flat-square">
+<a href="LICENSE.md"><img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-green?style=flat-square"></a>
 
 ![Экран выбора соперника](docs/select.png)
 
