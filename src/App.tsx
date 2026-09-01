@@ -1,6 +1,5 @@
 import { useEffect, useRef, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
-import { Analytics } from "@vercel/analytics/react";
 import AgentSelect from "./components/AgentSelect";
 import Board, { type PieceLayer } from "./components/Board";
 import Hud, { NextPreview } from "./components/Hud";
@@ -162,7 +161,6 @@ export default function App() {
         <AnimatePresence mode="wait">
           <AgentSelect key="select" onPick={handlePick} />
         </AnimatePresence>
-        <Analytics />
       </div>
     );
   }
@@ -305,7 +303,6 @@ export default function App() {
       <AnimatePresence>
         {s.phase === "over" && <Result />}
       </AnimatePresence>
-      <Analytics />
     </div>
   );
 }
