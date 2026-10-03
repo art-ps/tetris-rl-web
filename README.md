@@ -5,9 +5,9 @@
 **Веб-тетрис, где вы играете против агента, натренированного с помощью reinforcement learning.**
 Два поля, одинаковые фигуры, один победитель. Всё считается прямо в браузере — бэкенда нет.
 
-### 🕹️ [Играть онлайн → tetris-rl-web.vercel.app](https://tetris-rl-web.vercel.app/)
+### 🕹️ [Играть онлайн → art-ps.github.io/tetris-rl-web](https://art-ps.github.io/tetris-rl-web/)
 
-<a href="https://tetris-rl-web.vercel.app/"><img alt="live demo" src="https://img.shields.io/badge/▶%20live%20demo-tetris--rl--web.vercel.app-ffb02e?style=flat-square"></a>
+<a href="https://art-ps.github.io/tetris-rl-web/"><img alt="live demo" src="https://img.shields.io/badge/▶%20live%20demo-art--ps.github.io%2Ftetris--rl--web-ffb02e?style=flat-square"></a>
 <a href="https://github.com/art-ps/tetris-rl"><img alt="tetris-rl" src="https://img.shields.io/badge/trained%20in-tetris--rl-2de2e6?style=flat-square"></a>
 <img alt="React" src="https://img.shields.io/badge/React-18-61dafb?style=flat-square&logo=react&logoColor=black">
 <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-5-3178c6?style=flat-square&logo=typescript&logoColor=white">
@@ -84,10 +84,10 @@ python scripts/gen_fixtures.py   # -> src/game/__tests__/fixtures.json
 
 ## 📦 Деплой
 
-Статическая сборка — кладётся на любой хостинг (Vercel, Netlify, VDS):
+Автоматический деплой на GitHub Pages при push в main:
 
 ```bash
-npm run build && npx vercel deploy dist --prod   # пример для Vercel
+npm run build   # статика в dist/
 ```
 
 ## 🏗️ Архитектура
